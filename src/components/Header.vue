@@ -7,7 +7,7 @@
     </div>
     <div class="header-links">
         <router-link class="header-link" to="/">INICIO</router-link>
-        <router-link class="header-link" to="/crear-encuestas">CREAR ENCUESTAS</router-link>
+        <router-link class="header-link" to="/crear-encuesta">CREAR ENCUESTAS</router-link>
         <router-link class="header-link" to="/encuestas" v-if="users.currentUser.user.tipo == 'estudiante'">ENCUESTAS</router-link>
         <router-link class="header-link" to="/configuracion" style="margin-right: 170px;" v-if="users.currentUser.user.tipo == 'admin'">CONFIGURACIÓN</router-link>
     </div>

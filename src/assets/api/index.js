@@ -1,7 +1,7 @@
 import { reactive } from 'vue'
 const axios = require('axios')
 
-const vModels = reactive({
+let vModels = reactive({
     nat: '',
     num: '',
     pass: '',
